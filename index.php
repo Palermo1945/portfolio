@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>ITEAPV Portfolio</title>
+  <title>Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,7 +27,13 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
  
+<style>
 
+.bg-black {
+    background-color: #000000; /* Solid black color in hexadecimal format */
+}
+
+</style>
   
 </head>
 
@@ -375,7 +381,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -575,20 +581,21 @@
 
       </div>
     </section><!-- End Testimonials Section -->
+
+    <footer class="bg-black text-light">
+    <div class="container text-center">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Christian Palermo</span></strong>
+        </div>
+        <div class="credits">
+            Designed by <br>Christian Palermo
+        </div>
+    </div>
+</footer>
+
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Christian Palermo</span></strong>
-      </div>
-      <div class="credits">
-      
-        Designed by <br>Christian Palermo
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+  
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -607,5 +614,6 @@
   <script src="assets/js/main.js"></script>
 
 </body>
+<!-- ======= Footer ======= -->
 
 </html>
